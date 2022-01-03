@@ -1,0 +1,6 @@
+framework module ConsoliAdsKidozAdapter {
+  umbrella header "ConsoliAdsKidozAdapter.h"
+
+  export *
+  module * { export * }
+}

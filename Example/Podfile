@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ConsoliAds-Kidoz-Adapter_Example' do
+  pod 'ConsoliAds-Kidoz-Adapter', :path => '../'
+
+  target 'ConsoliAds-Kidoz-Adapter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-Kidoz-Adapter (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-Kidoz-Adapter (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-Kidoz-Adapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-Kidoz-Adapter: b4dabbc7abbaa6a2b36f7a33f3fa346cebbe581c
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: fcf1bf79b7a5f2b64d20b6c7204f41b50c362408
+
+COCOAPODS: 1.11.2
